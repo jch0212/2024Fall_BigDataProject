@@ -53,4 +53,63 @@
 ## Part 3 by Chenhao Jiang
 ## Application Approval Analysis
 
-*(Details for Part 3 are missing)*
+### Step 1:
+
+- **Purpose**: Prepare the data.
+- **Environment**: Python 3.8 with panda
+- **Input file**: [DOB_Job_Application_Filings_20240424.csv](https://drive.google.com/file/d/10iKs7pfTqVXpMk9xTDbXLeADR9kJSIF6/view?usp=drive_link)
+- **Output file**: processedData_.csv
+- **Script file**: dataProcess.py
+- **Steps**:
+  1. Do not modify the input file name.
+  2. Put the input file and script file under the same directory.
+  3. Run `python dataProcess.py`.
+  4. Output file will be generated under the same directory.
+ 
+  ### Step 2:
+
+- **Purpose**: Prepare the data.Calculate the SHAP value of choosed columns in dataset to figure out the correlation between columns and approval decisions.
+- **Environment**: Python 3.8 with sklearn and shap
+- **Input file**: Output from Step1
+- **Output file**: shap_value_positive_.csv
+- **Script file**: jobParam.py AdminManagement.py Owner.py
+- **Steps**:
+  1. Do not modify the input file name.
+  2. Put the input file and script file under the same directory.
+  3. Output file will be generated under the same directory.
+
+  ### Step 3:
+
+- **Purpose**: Visualize the results.
+- **Environment**: Python 3.8 with matplotlib and panda
+- **Input file**: Output from Step2
+- **Output file**: result.png
+- **Script file**: dataVisualization.py
+- **Steps**:
+  1. Do not modify the input file name.
+  2. Put the input file and script file under the same directory.
+  3. Output file will be generated under the same directory.
+ 
+
+### Step 4:
+
+- **Purpose**: Train the predictive model.
+- **Environment**: Python 3.8 with sklearn
+- **Input file**: [DOB_Job_Application_Filings_20240424.csv](https://drive.google.com/file/d/10iKs7pfTqVXpMk9xTDbXLeADR9kJSIF6/view?usp=drive_link)
+- **Output file**: result.png
+- **Script file**: recommendationSystem.py
+- **Steps**:
+  1. Do not modify the input file name.
+  2. Put the input file and script file under the same directory.
+  3. Output file will be generated under the same directory.
+ 
+
+
+
+
+
+
+
+
+
+
