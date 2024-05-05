@@ -11,7 +11,7 @@
 - **Environment**: NYU Dataproc
 - **Input file**: [DOB_Job_Application_Filings_20240424.csv](https://drive.google.com/file/d/10iKs7pfTqVXpMk9xTDbXLeADR9kJSIF6/view?usp=drive_link)
 - **Output file**: [dob_nyc_project.csv](https://drive.google.com/file/d/1VsRhWrJeVmfhZQ_-AwLq4URs8bRgCisO/view?usp=drive_link)
-- **Script file**: `part1_jz5584/pre_process.py`
+- **Script file**: [part1_jz5584/pre_process.py](https://github.com/jch0212/2024Fall_BigDataProject/blob/main/part1_jz5584/pre_process.py)
 - **Steps**:
   1. Do not modify the input file name.
   2. Put the input file and script file under the same directory.
@@ -39,7 +39,7 @@
   - [building_types_in_nyc.png](https://drive.google.com/file/d/1VOdux-ypDK1OJnFUwv5zDagUm-hMMxQV/view?usp=drive_link)
   - [construction_job_types_in_nyc.png](https://drive.google.com/file/d/1TObFhSVmJxguXS0S_oi4oEGlCuPJT_n6/view?usp=drive_link)
   - [jz5584_project_final.pdf](https://drive.google.com/file/d/1yu5ikvI1pOaMFCrLVDWcNvgXx-mXPgOL/view?usp=drive_link) (Jupyter Notebook script with output)
-- **Script file**: `part1_jz5584/jz5584_project_final.ipynb`
+- **Script file**: [part1_jz5584/jz5584_project_final.ipynb](https://github.com/jch0212/2024Fall_BigDataProject/blob/main/part1_jz5584/jz5584_project.ipynb)
 - **Steps**:
   1. Do not modify the input file name.
   2. Put the input file and script file under the same Jupyter Notebook directory.
