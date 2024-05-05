@@ -45,10 +45,31 @@
   2. Put the input file and script file under the same Jupyter Notebook directory.
   3. Run the script file. Output file will be generated under the same directory.
 
-## Part 2 by Rui Ruining Li
+## Part 2 by Ruining Li
 ## Construction Cost Analysis
+### Step 1:
 
-*(Details for Part 2 are missing)*
+- **Purpose**: Load and analyze the dataset
+- **Environment**: Python 3.11 with Spark
+- **Input file**: [DOB_Job_Application_Filings_20240424.csv](https://drive.google.com/file/d/10iKs7pfTqVXpMk9xTDbXLeADR9kJSIF6/view?usp=drive_link)
+- **Output file**: DOB_Job_Application_Filings_20240424.csv
+- **Script file**: construction_cost_analysis.ipynb
+- **Steps**:
+  1. put the ipynb file with the dataset in one folder
+  2. run the first 16 cells of the file(there might be some issue happen when running the application fee column because the dataset is so large, but restarting and running it again will fix it)
+  3. the plot will be shown under each cell
+ 
+### Step 2:
+
+- **Purpose**: Build the predict model
+- **Environment**: Python 3.11 with Spark
+- **Input file**: [DOB_Job_Application_Filings_20240424.csv](https://drive.google.com/file/d/10iKs7pfTqVXpMk9xTDbXLeADR9kJSIF6/view?usp=drive_link)
+- **Output file**: DOB_Job_Application_Filings_20240424.csv
+- **Script file**: construction_cost_analysis.ipynb
+- **Steps**:
+  1. put the ipynb file with the dataset in one folder
+  2. restart the notebook and run all the cells in the file
+  3. in the final cell, the model will be built, trained and evaluated, the root mean square error will be cacluated
 
 ## Part 3 by Chenhao Jiang
 ## Application Approval Analysis
