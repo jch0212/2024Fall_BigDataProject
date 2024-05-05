@@ -52,12 +52,12 @@
 - **Purpose**: Load and analyze the dataset
 - **Environment**: Python 3.11 with Spark
 - **Input file**: [DOB_Job_Application_Filings_20240424.csv](https://drive.google.com/file/d/10iKs7pfTqVXpMk9xTDbXLeADR9kJSIF6/view?usp=drive_link)
-- **Output file**: DOB_Job_Application_Filings_20240424.csv
+- **Output file**: result_1.png, result_2.png, result_3.png, result_4.png,result_5.png
 - **Script file**: construction_cost_analysis.ipynb
 - **Steps**:
   1. put the ipynb file with the dataset in one folder
   2. run the first 16 cells of the file(there might be some issue happen when running the application fee column because the dataset is so large, but restarting and running it again will fix it)
-  3. the plot will be shown under each cell
+  3. the output file will be saved in the same directory
  
 ### Step 2:
 
