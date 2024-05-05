@@ -45,10 +45,12 @@
   2. Put the input file and script file under the same Jupyter Notebook directory.
   3. Run the script file. Output file will be generated under the same directory.
 
-## Part 2 by Rui Ruining Li: Construction Cost Analysis
+## Part 2 by Rui Ruining Li
+## Construction Cost Analysis
 
 *(Details for Part 2 are missing)*
 
-## Part 3 by Chenhao Jiang: Application Approval Analysis
+## Part 3 by Chenhao Jiang
+## Application Approval Analysis
 
 *(Details for Part 3 are missing)*
